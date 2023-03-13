@@ -14,7 +14,7 @@ import requests
 
 @app.route('/')
 def ping_service():
-    return 'Pong'
+    return ''
 
 @app.route('/ping')
 def do_ping():
